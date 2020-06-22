@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-import pymysql
+#import pymysql
 
-pymysql.version_info = (1, 4, 2, "final", 0)
-pymysql.install_as_MySQLdb()
+#pymysql.version_info = (1, 4, 2, "final", 0)
+#pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
